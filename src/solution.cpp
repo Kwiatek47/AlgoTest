@@ -10,6 +10,15 @@ int main() {
         // Pass your solution file solution here
         // ...
 
+        int n;
+        cin >> n;
+
+        if(n % 2 == 0) { 
+                cout << 1;
+        } else {
+                cout << 0;
+        }
+
         return 0;
 }
 
