@@ -1,6 +1,6 @@
 # Algorithm Validation and Testing Framework
 
-Hi! Good to see you here :) Let's make sure that before you copy and paste everything, check a few words below - to make sure your computer doesn't explode ;)
+Hi! Good to see you here 😊 Let's make sure that before you copy and paste everything, check a few words below - to make sure your computer doesn't explode 💣😉
 
 ---
 
