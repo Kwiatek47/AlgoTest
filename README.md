@@ -43,6 +43,29 @@ The repository contains the following files:
 
 ## How to Use
 
+### Step 1: Download Files
+
+Start by downloading the repository to your local computer.
+
+### Step 2: Study the Files
+
+Carefully study the following files:
+- **generator.cpp**: This file generates test cases for validation. Use built-in functions or adjust it according to your needs. You can use functions like `RA(a, b)` or other built-in C++ functions to generate test cases for your input.
+  
+- **brute_force.cpp**: This file contains the brute force solution. Implement your brute force algorithm here.
+  
+- **solution.cpp**: This file contains the optimized solution. Implement your optimized algorithm in this file.
+
+### Step 3: Set Up Input/Output Redirection (Optional, but recommended)
+
+To simplify the process and avoid manually changing input/output every time, use `freopen` to handle file redirection. It minimizes changes in your code and automatically uses `cin` and `cout` for input/output.
+
+Add the following two lines in **brute_force.cpp** and **solution.cpp**:
+
+```cpp
+freopen("tests/input.txt", "r", stdin);
+freopen("tests/output_solution.txt", "w", stdout);
+
 ---
 
 ### Running Validation
