@@ -64,6 +64,11 @@ Add the following two lines in **brute_force.cpp** and **solution.cpp**:
 
 ```cpp
 freopen("tests/input.txt", "r", stdin);
+freopen("tests/output_brute.txt", "w", stdout);
+```
+
+```cpp
+freopen("tests/input.txt", "r", stdin);
 freopen("tests/output_solution.txt", "w", stdout);
 ```
 
