@@ -1,15 +1,19 @@
 # Algorithm Validation and Testing Framework
 
-This repository contains:
-- A brute force solution
-- An optimized solution
-- A test generation script for algorithm validation
+Hi! Good to see you here :) Let's make sure that before you copy and paste everything, check a few words below - to make sure your computer doesn't explode ;)
 
 ---
 
 ## Introduction
 
 The goal of this repository is to validate the correctness and efficiency of an optimized algorithm by comparing it against a brute force solution. Using a test generator, a wide variety of test cases can be created to ensure robustness.
+
+---
+
+This repository contains:
+- A brute force solution
+- An optimized solution
+- A test generation script for algorithm validation
 
 ---
 
@@ -37,7 +41,9 @@ The repository contains the following files:
 
 ---
 
-## Usage
+## How to Use
+
+---
 
 ### Running Validation
 
