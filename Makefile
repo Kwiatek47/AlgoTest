@@ -1,21 +1,15 @@
-all: program
-
-run_generator: 
+compile_GSB:							# GSB - generator solution brute_force compiler
 	g++  src/generator.cpp -o generator.exe
-	./generator.exe
-
-run_solution:
-	g++  src/solution.cpp -o solution.exe
-	./solution.exe
-
-run_brute_force:
 	g++  src/brute_force.cpp -o brute_force.exe
+	g++  src/solution.cpp -o solution.exe
+
+run_GSB:							# Run GSB
+	./generator.exe
 	./brute_force.exe
+	./solution.exe
+	clean
 
-clean:
+clean:								# Clean up
 	rm -f generator.exe solution.exe brute_force.exe
-
-program: run_generator run_brute_force run_solution clean
-
 
 
