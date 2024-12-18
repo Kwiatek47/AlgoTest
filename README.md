@@ -79,4 +79,6 @@ freopen("tests/output_solution.txt", "w", stdout);
 To validate the solutions, run the following command:
 
 ```bash
-bash scripts/run.sh
+cd scripts
+./run.sh
+```
